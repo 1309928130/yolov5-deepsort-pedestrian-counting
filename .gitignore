@@ -1,0 +1,19 @@
+# Local environments and editor junk
+venv/
+venv2_Python3.8/
+__pycache__/
+*.py[cod]
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+
+# Nested third-party trees and local data (not the pedestrian-counting app)
+Segmentation/
+coco-annotator/
+
+# Weights and runtime outputs (too large / regenerable)
+*.pt
+*.pth
+*.onnx
+*.engine
+inference/output/
